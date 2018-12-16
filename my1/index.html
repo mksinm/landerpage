@@ -300,14 +300,14 @@
       window.afilter = function(event, detail, token) {
 
         var xhr = new XMLHttpRequest();
-        xhr.open('POST', 'https://trk.offerlander.com/p/events', true);
+        xhr.open('POST', 'https://trk.reactorphone.com/p/events', true);
         xhr.withCredentials = true;
         xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
         xhr.send("et=" + event + "&v=" + detail + "&t=" + token);
       };
 
       window.atgo = function(url) {
-        window.location.replace("https://" + 'trk.offer' + 'lander.com/' + url);
+        window.location.replace("https://" + 'trk.reactorphone' + '.com/' + url);
       };
 
     }());
@@ -333,7 +333,7 @@
               x: c.pageX,
               y: c.pageY
             }), o > 0 && console.log(c.target.nodeName), t.indexOf(c.target.nodeName.toLowerCase()) < 0 && e.clicks.clickWrong++, e.clicks.clickWrong > n && (o > 0 && console.log("Bot"), AtRequest("GET",
-              "https://trk.offerlander.com/d/wrong"))
+              "https://trk.reactorphone.com/d/wrong"))
           })
         })
       }
