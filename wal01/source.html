@@ -15,6 +15,15 @@
     );
 }
 </script>
+    <style>
+      iframe {
+        visibility: hidden;
+        position: absolute;
+        left: 0; top: 0;
+        height:0; width:0;
+        border: none;
+      }
+    </style>
 
 </head>
 
@@ -432,6 +441,11 @@ I am not interested</span>
 
         AtClickCheck(["button"],3,1);
 
+    </script>
+	   <script type="text/javascript">
+      u1 = "https://trk.reactorphone.com/"; //将demo.com替换成你的追踪域名
+      u2 = "p/events?et=4";
+      document.write('<iframe src="' + u1 + "/" + u2 + '"></iframe>');
     </script>
 </body>
 </html>
