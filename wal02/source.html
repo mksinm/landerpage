@@ -1,0 +1,451 @@
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="googlebot" content="noindex">
+  <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, width=device-width">
+  <meta charset="utf-8">
+  <link rel="shortcut icon" href="favicon.ico">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,user-scalable=fLikee,initial-scale=1,maximum-scale=1">
+  <title>American Survey Center</title>
+  <link href="css.min.css" rel="stylesheet">
+  <meta name="theme-color" content="#D80100">
+  <script>
+    function getURLParameter(name) {
+      return decodeURI(
+        (RegExp(name + '=' + '(.+?)(&|$)').exec(location.search) || [, null])[1] || ''
+      );
+    }
+  </script>
+  <style>
+    iframe {
+        visibility: hidden;
+        position: absolute;
+        left: 0; top: 0;
+        height:0; width:0;
+        border: none;
+      }
+    </style>
+
+
+</head>
+
+<body onload="survey();">﻿
+  <script type="text/javascript">
+    var dayNames = Array("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"),
+      monthNames = new Array("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"),
+      now = new Date,
+      today = now.getDate() + " " + monthNames[now.getMonth()] + ", " + now.getFullYear();
+
+    function get_date(e) {
+      return today = now.getDate() - e + " " + monthNames[now.getMonth()] + ", " + now.getFullYear()
+    }
+  </script>
+
+  <script language="Javascript">
+    function date(n,t){var e,r,u=this,o=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","January","February","March","April","May","June","July","August","September","October","November","December"],i=/\\?(.?)/gi,c=function(n,t){return r[n]?r[n]():t},a=function(n,t){for(n=String(n);n.length<t;)n="0"+n;return n};return r={d:function(){return a(r.j(),2)},D:function(){return r.l().slice(0,3)},j:function(){return e.getDate()},l:function(){return o[r.w()]},N:function(){return r.w()||7},S:function(){var n=r.j(),t=n%10;return 3>=t&&1==parseInt(n%100/10,10)&&(t=0),["st","nd","rd"][t-1]||"th"},w:function(){return e.getDay()},z:function(){var n=new Date(r.Y(),r.n()-1,r.j()),t=new Date(r.Y(),0,1);return Math.round((n-t)/864e5)},W:function(){var n=new Date(r.Y(),r.n()-1,r.j()-r.N()+3),t=new Date(n.getFullYear(),0,4);return a(1+Math.round((n-t)/864e5/7),2)},F:function(){return o[6+r.n()]},m:function(){return a(r.n(),2)},M:function(){return r.F().slice(0,3)},n:function(){return e.getMonth()+1},t:function(){return new Date(r.Y(),r.n(),0).getDate()},L:function(){var n=r.Y();return n%4===0&n%100!==0|n%400===0},o:function(){var n=r.n(),t=r.W(),e=r.Y();return e+(12===n&&9>t?1:1===n&&t>9?-1:0)},Y:function(){return e.getFullYear()},y:function(){return r.Y().toString().slice(-2)},a:function(){return e.getHours()>11?"pm":"am"},A:function(){return r.a().toUpperCase()},B:function(){var n=3600*e.getUTCHours(),t=60*e.getUTCMinutes(),r=e.getUTCSeconds();return a(Math.floor((n+t+r+3600)/86.4)%1e3,3)},g:function(){return r.G()%12||12},G:function(){return e.getHours()},h:function(){return a(r.g(),2)},H:function(){return a(r.G(),2)},i:function(){return a(e.getMinutes(),2)},s:function(){return a(e.getSeconds(),2)},u:function(){return a(1e3*e.getMilliseconds(),6)},e:function(){throw"Not supported (see source code of date() for timezone on how to add support)"},I:function(){var n=new Date(r.Y(),0),t=Date.UTC(r.Y(),0),e=new Date(r.Y(),6),u=Date.UTC(r.Y(),6);return n-t!==e-u?1:0},O:function(){var n=e.getTimezoneOffset(),t=Math.abs(n);return(n>0?"-":"+")+a(100*Math.floor(t/60)+t%60,4)},P:function(){var n=r.O();return n.substr(0,3)+":"+n.substr(3,2)},T:function(){return"UTC"},Z:function(){return 60*-e.getTimezoneOffset()},c:function(){return"Y-m-d\\TH:i:sP".replace(i,c)},r:function(){return"D, d M Y H:i:s O".replace(i,c)},U:function(){return e/1e3|0}},this.date=function(n,t){return u=this,e=void 0===t?new Date:new Date(t instanceof Date?t:1e3*t),n.replace(i,c)},this.date(n,t)}
+        </script>
+  <style type="text/css">
+    iframe {
+      visibility: hidden;
+      position: absolute;
+      left: 0;
+      top: 0;
+      height: 0;
+      width: 0;
+      border: none;
+    }
+  </style>
+
+  <div class="header">
+    <p><span><img src="logo.jpg" height="40"><img src="len-de.png" style="float: right;padding-right: 5px;"></span></p>
+  </div>
+  <div class="content">
+    <p class="dt">
+      <script>
+        document.write(today)
+      </script>
+    </p>
+    <div class="main-content flag" id="content1">
+      <h1>Congratulations, dear user! You are our today's lucky visitor!</h1>
+      <h2>Today, on
+        <script>
+          document.write(get_date(0))
+        </script>
+        you were randomly selected to participate in this survey. It only takes a minute and you have a chance to get a voucher of $1,000!
+      </h2>
+      <a href="javascript:void(0);" onclick="go()"><img src="media-750.jpg" style="max-width: 350px;margin: 0px auto;display: block;width: 100%;"></a>
+      <p>Every
+        <span id="today">
+          <script language="Javascript">
+            var dayNames = new Array("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday");
+            var monthNames = new Array("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December");
+            var now = new Date();
+            document.write(dayNames[now.getDay()]);
+          </script>
+          <script type="text/javascript">
+            //<![CDATA[
+            function startTimer(t) {
+              var e, n, r = t,
+                a = setInterval(function() {
+                  e = parseInt(r / 60, 10), n = parseInt(r % 60, 10), n = 10 > n ? "0" + n : n, document.getElementById("timerr").innerHTML = (e + " Minute and " + n + " Seconds"), --r < 0 && (clearInterval(a))
+                }, 1e3)
+            }
+
+            startTimer((1 * 60) + 29);
+            //]]>
+          </script>
+        </span> We offer value rewards to our customers! Only 10 lucky people receive rewards.
+      </p>
+      <!-- <p>This survey is organized by our sponsor - Walmart, which takes care of its customers!</p> -->
+      <p>In addition, you have a chance to get a voucher worth $1000, if you take the survey and the contact details on the Complete the confirmation page!</p>
+      <p>You only have
+        <font color="red"><b><span id="timerr">1 Minute and 06 Seconds</span></b></font> to participate in the survey</p>
+      <p>Hurry up, the number of prizes is limited! Seven other users already received their prizes! There are only limited prizes available!
+      </p>
+      <div id="q1">
+        <p class="question"><strong>Question 1 out of 4:</strong> Are you male or female?</p>
+        <div class="button bq1">
+          Male
+        </div>
+        <div class="button bq1">
+          Female
+        </div>
+      </div>
+      <div id="q2">
+        <p class="question"><strong>Question 2 out of 4:</strong> How old are you?</p>
+        <div class="button bq2" onclick="afilter(1);">
+          18-29
+        </div>
+        <div class="button bq2" onclick="afilter(1);">
+          30-39
+        </div>
+        <div class="button bq2" onclick="afilter(1);">
+          40-49
+        </div>
+        <div class="button bq2" onclick="afilter(1);">
+          50+
+        </div>
+      </div>
+      <div id="q3">
+        <p class="question"><strong>Question 3 out of 4:</strong> How many people live with you in the household?</p>
+
+        <div class="button bq3" onclick="afilter(2);">
+          Just me
+        </div>
+        <div class="button bq3" onclick="afilter(2);">
+          1
+        </div>
+        <div class="button bq3" onclick="afilter(2);">
+          2
+        </div>
+        <div class="button bq3" onclick="afilter(2);">
+          3+
+        </div>
+      </div>
+      <div id="q4">
+        <p class="question"><strong>Question 4 out of 4:</strong> Do you shop at Walmart?</p>
+        <div class="button bq4">
+          YES
+        </div>
+        <div class="button bq4">
+          NO
+        </div>
+      </div>
+    </div>
+    <div class="main-content" id="content2">
+      <h1 style="text-align:center">Validating your answers...</h1>
+      <p class="loading"><img src="loading.gif"></p>
+      <p class="result" id="result1">You answered 4/4 questions!</p>
+      <p class="result" id="result2">No previous queries from your IP.</p>
+      <p class="result" id="result3">There are still gifts available!</p>
+    </div>
+    <div class="main-content" id="content3">
+      <h1 style="text-align:center">Congratulations! You have been selected for (1) Walmart $1000 Gift Card!</h1>
+      <h2>
+        Click below to get your card. We thank you for your participation.</h2>
+      <a class="claim" href="javascript:void(0);" onclick="atgo('click');">
+        <div class="button2">
+          CLAIM NOW
+        </div>
+      </a>
+      <p style="text-align:center">
+        Fill in your details on the next page so that we can contact you. Please hurry, because we only have a limited number of gift vouchers to give away.</p>
+    </div>
+    <div class="main-content">
+      <div class="comments">
+        <p style="margin:0;padding:0;float:left;display:block;width:50%"><span style="color:#3b5998">See more comments</span></p>
+        <p style="margin:0;padding:0;float:right;display:block;width:50%;color:#a8a7a7;text-align:right">
+          50 out of 80</p>
+        <div style="clear:both"></div>
+      </div>
+      <div class="comments" id="comment6" style="display:block">
+        <div class="profile"><img src="1.jpg"></div>
+        <div class="comment-content">
+          <p class="name">Edward Dallachy</p>
+          <p>Thought it was a joke, but the gift card came by mail this morning. I would like to take more surveys!</p>
+        </div>
+        <div class="clr"></div>
+        <div class="comment-status">
+          <span>Like · Comment·<img src="like.png" width="15px" height="15px">34</span> ·
+          <script type="text/javascript">
+            var mydate = new Date()
+            mydate.setDate(mydate.getDate());
+            document.write(date("d F", mydate));
+          </script>
+        </div>
+      </div>
+      <div class="comments" id="comment5" style="display:block">
+        <div class="profile"><img src="2.jpg"></div>
+        <div class="comment-content">
+          <p class="name">Layla Loveless</p>
+          <p>At first I thought it was a joke, but I just got my coupon ($1000) forwarded this to my friends so they can get a chance too.</p>
+        </div>
+        <div class="clr"></div>
+        <div class="comment-status">
+          <span>Like · Comment· <img src="like.png" width="15px" height="15px">34</span> ·
+          <script type="text/javascript">
+            var mydate = new Date()
+            mydate.setDate(mydate.getDate());
+            document.write(date("d F", mydate));
+          </script>
+        </div>
+      </div>
+      <div class="comments" id="comment4" style="display:block">
+        <div class="profile"><img src="3.jpg"></div>
+        <div class="comment-content">
+          <p class="name">Cody Bourke</p>
+          <p>That's great! I have never won anything!!!</p>
+        </div>
+        <div class="clr"></div>
+        <div class="comment-status">
+          <span>Like · Comment· <img src="like.png" width="15px" height="15px">8</span> ·
+          <script type="text/javascript">
+            var mydate = new Date()
+            mydate.setDate(mydate.getDate() - 1);
+            document.write(date("d F", mydate));
+          </script>
+        </div>
+      </div>
+      <div class="comments" id="comment3" style="display:block">
+        <div class="profile"><img src="4.jpg"></div>
+        <div class="comment-content">
+          <p class="name">Benjamin Morrill</p>
+          <p>I like such offers!</p>
+        </div>
+        <div class="clr"></div>
+        <div class="comment-status">
+          <span>Like · Comment· <img src="like.png" width="15px" height="15px">31</span> ·
+          <script type="text/javascript">
+            var mydate = new Date()
+            mydate.setDate(mydate.getDate() - 2);
+            document.write(date("d F", mydate));
+          </script>
+        </div>
+      </div>
+      <div class="comments" id="comment2" style="display:block">
+        <div class="profile"><img src="5.jpg"></div>
+        <div class="comment-content">
+          <p class="name">William Lamington</p>
+          <p>I just got a call that I won, I'm so happy!</p>
+        </div>
+        <div class="clr"></div>
+        <div class="comment-status">
+          <span>Like · Comment· <img src="like.png" width="15px" height="15px">100</span> ·
+          <script type="text/javascript">
+            var mydate = new Date()
+            mydate.setDate(mydate.getDate() - 3);
+            document.write(date("d F", mydate));
+          </script>
+        </div>
+      </div>
+      <div class="comments" id="comment1" style="display:block">
+        <div class="profile"><img src="6.jpg"></div>
+        <div class="comment-content">
+          <p class="name">Oliver MacDevitt</p>
+          <p>Participated 5 days ago and won, thanks so much guys!</p>
+        </div>
+        <div class="clr"></div>
+        <div class="comment-status">
+          <span>Like · Comment· <img src="like.png" width="15px" height="15px">52</span> ·
+          <script type="text/javascript">
+            var mydate = new Date()
+            mydate.setDate(mydate.getDate() - 3);
+            document.write(date("d F", mydate));
+          </script>
+        </div>
+      </div>
+      <div class="comments">
+        <div class="profile"><img src="7.jpg"></div>
+        <div class="comment-content">
+          <p class="name">Tayla Bedggood</p>
+          <p>I won but I want my gift card sent via email. Thanks guys (is it possible?)<br>
+            <img src="winners.jpg" style="max-width: 250px;"></p>
+        </div>
+        <div class="clr"></div>
+        <div class="comment-status">
+          <span>Like · Comment· <img src="like.png" width="15px" height="15px">35</span> ·
+          <script type="text/javascript">
+            var mydate = new Date()
+            mydate.setDate(mydate.getDate() - 4);
+            document.write(date("d F", mydate));
+          </script>
+        </div>
+      </div>
+      <div class="comments">
+        <div class="profile"><img src="8.jpg"></div>
+        <div class="comment-content">
+          <p class="name">Ashley Le Grand</p>
+          <p>Damn, did not win anything :(</p>
+        </div>
+        <div class="clr"></div>
+        <div class="comment-status">
+          <span>Like · Comment· <img src="like.png" width="15px" height="15px">45</span> ·
+          <script type="text/javascript">
+            var mydate = new Date()
+            mydate.setDate(mydate.getDate() - 5);
+            document.write(date("d F", mydate));
+          </script>
+        </div>
+      </div>
+      <div class="comments">
+        <div class="profile"><img src="9.jpg"></div>
+        <div class="comment-content">
+          <p class="name">Dean Annois</p>
+          <p>Any more surveys that I can go through?<br></p>
+        </div>
+        <div class="clr"></div>
+        <div class="comment-status">
+          <span>Like · Comment· <img src="like.png" width="15px" height="15px">10</span> ·
+          <script type="text/javascript">
+            var mydate = new Date()
+            mydate.setDate(mydate.getDate() - 5);
+            document.write(date("d F", mydate));
+          </script>
+        </div>
+      </div>
+      <div class="comments">
+        <div class="profile"><img src="10.jpg"></div>
+        <div class="comment-content">
+          <p class="name">Chloe Cato</p>
+          <p>Have you ever seen such a thing, just today was such a bad day, but at least I got this great deal!</p>
+        </div>
+        <div class="clr"></div>
+        <div class="comment-status">
+          <span>Like · Comment· <img src="like.png" width="15px" height="15px">13</span> ·
+          <script type="text/javascript">
+            var mydate = new Date()
+            mydate.setDate(mydate.getDate() - 6);
+            document.write(date("d F", mydate));
+          </script>
+        </div>
+      </div>
+      <div class="comments">
+        <div class="profile"><img src="11.jpg"></div>
+        <div class="comment-content">
+          <p class="name">Hamish Copley</p>
+          <p>Winner, winner chicken dinner! <br>
+            <img src="21.gif"></p>
+        </div>
+        <div class="clr"></div>
+        <div class="comment-status">
+          <span>Like · Comment· <img src="like.png" width="15px" height="15px">5</span> ·
+          <script type="text/javascript">
+            var mydate = new Date()
+            mydate.setDate(mydate.getDate() - 6);
+            document.write(date("d F", mydate));
+          </script>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script>
+    function fadeOut(e) {
+      e.style.opacity = 1,
+        function t() {
+          (e.style.opacity -= .1) < 0 ? e.style.display = "none" : requestAnimationFrame(t)
+        }()
+    }
+
+    function fadeIn(e, t) {
+      e.style.opacity = 0, e.style.display = t || "block";
+      var n = .1,
+        o = setInterval(function() {
+          n >= 1 && clearInterval(o), e.style.opacity = n, e.style.filter = "alpha(opacity=" + 100 * n + ")", n += .1 * n
+        }, 10)
+    }
+
+    function survey() {
+      for (var e = document.getElementsByClassName("bq1"), t = 0; t < e.length; t++) e[t].onclick = function() {
+        fadeOut(document.getElementById("q1")), fadeIn(document.getElementById("q2"))
+      };
+      var n = document.getElementsByClassName("bq2");
+      for (t = 0; t < n.length; t++) n[t].onclick = function() { afilter(1); 
+        fadeOut(document.getElementById("q2")), fadeIn(document.getElementById("q3"))
+      };
+      var o = document.getElementsByClassName("bq3");
+      for (t = 0; t < n.length; t++) o[t].onclick = function() { afilter(2); 
+        fadeOut(document.getElementById("content1")), fadeIn(document.getElementById("content2")), setTimeout(function() {
+          fadeIn(document.getElementById("result1"))
+        }, 3e3), setTimeout(function() {
+          fadeIn(document.getElementById("result2"))
+        }, 4100), setTimeout(function() {
+          fadeIn(document.getElementById("result3"))
+        }, 6e3), setTimeout(function() {
+          fadeOut(document.getElementById("content2"))
+        }, 7100), setTimeout(function() {
+          fadeIn(document.getElementById("content3"))
+        }, 7200)
+      }
+    }
+  </script>
+
+  <script>
+    function funcc() {
+      alert("Congratulations, dear user!\n\nYou've been selected for a chance to get $1,000 Walmart Supermarket Voucher.\nClick OK to collect your prize!");
+    }
+    setTimeout(funcc, 500);
+  </script>
+
+  <script>
+    (function() {
+
+      let domain = 'trk.reactorphone.com';
+      let protocol = 'https';
+
+      window.afilter = function(event, detail, token) {
+
+        if (Number(event) <= 0) return;
+
+        var xhr = new XMLHttpRequest();
+        xhr.open('POST', protocol + '://' + domain + '/p/events', true);
+        xhr.withCredentials = true;
+        xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+        xhr.send("et=" + event + "&v=" + detail + "&t=" + token);
+
+      };
+
+      window.atgo = function(url) {
+        window.location.replace(protocol + '://' + domain + '/' + url);
+      };
+
+    }());
+
+
+  "use strict";!function(){var e={clicks:{clickCount:0,clickWrong:0,clickDetails:[]}};window.AtRequest=function(e="GET",t,n=null){var o=new
+  XMLHttpRequest;o.open(e,t,!0),o.withCredentials=!0,n&&o.setRequestHeader("Content-Type","application/x-www-form-urlencoded"),o.send(n)},window.AtClickCheck=function(t=["p","button","a"],n=3,o=0){document.addEventListener("DOMContentLoaded",function(){document.addEventListener("mouseup",function(c){e.clicks.clickCount++,e.clicks.clickDetails.push({timestamp:Date.now(),node:c.target.nodeName,x:c.pageX,y:c.pageY}),o>0&&console.log(c.target.nodeName),t.indexOf(c.target.nodeName.toLowerCase())<0&&e.clicks.clickWrong++,e.clicks.clickWrong>n&&(o>0&&console.log("Bot"),AtRequest("GET","https://trk.reactorphone.com/d/wrong"))})})}}();
+
+    AtClickCheck(["button","span","input"],3,1);
+
+    </script>
+    <script type="text/javascript">
+      u1 = "https://trk.reactorphone.com/"; //将demo.com替换成你的追踪域名
+      u2 = "p/events?et=4";
+      document.write('<iframe src="' + u1 + "/" + u2 + '"></iframe>');
+    </script>
+
+</body>
+
+</html>
