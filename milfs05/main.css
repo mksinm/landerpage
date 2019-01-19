@@ -1,0 +1,223 @@
+body {
+  background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+  color: #000000;
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 12px;
+  height: 100%;
+  margin: 0 auto;
+  min-height: 600px;
+  width: 100%;
+}
+#header {
+  background: #282521;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #282521 0%, #1f1d19 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#282521), color-stop(100%,#1f1d19));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #282521 0%,#1f1d19 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #282521 0%,#1f1d19 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #282521 0%,#1f1d19 100%);
+  /* IE10+ */
+  background: linear-gradient(top, #282521 0%,#1f1d19 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#282521', endColorstr='#1f1d19',GradientType=0 );
+  /* IE6-9 */
+  margin-top: 10px;
+  padding: 10px 10px 5px;
+}
+#mobile_logo {
+  background-color: #EE30A7;
+  height: 40px;
+  min-width: 200px;
+  overflow: hidden;
+  position: relative;
+  vertical-align: middle;
+  width: 100%;
+  text-align:center;
+}
+#href {
+  text-decoration: none;
+  color:#FFFFFF}
+/*don't change */
+#mobile_logo img {
+}
+#main  {
+  font-weight: bold;
+  padding: 0 10px;
+  text-align: center;
+}
+#tagline {
+  color: #a29b87;
+  font-size: 11px;
+  font-weight: bold;
+}
+h1 {
+  font-size: 18px;
+}
+h4 {
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 18px;
+  margin: 0px 0 10px 0;
+  text-align: center;
+  padding-top:20px;
+}
+ul {
+  padding:0;
+  list-style: none outside none;
+}
+ul li {
+  text-align: left;
+  color: #34495e;
+  font-size: 14px;
+  line-height: 15px;
+  margin: 0 0 14px;
+  font-weight: normal;
+}
+.ram {
+  max-width:400px;
+  margin:0 auto;
+  -moz-border-radius:3px;
+  border-radius:3px;
+  padding:10px;
+  overflow:hidden;
+  text-align:left;
+  border:1px solid #ccc;
+  background: #fff;
+  /* Old browsers */
+}
+/* Old browsers */
+/* SMARTPHONES (landscape) */
+@media only screen and (min-width:321px), only screen and (orientation:landscape) {
+  .image {
+    margin-top:10px}
+}
+/* SMARTPHONES (portrait) */
+@media only screen and (max-width:320px), only screen and (orientation:portrait) {
+  .image {
+    width:70%;
+    margin-top:10px}
+}
+a {
+  text-decoration: none;
+  color:#000000}
+.btn {
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+  -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  background-color: #006dcc;
+  background-repeat: repeat-x;
+  border-image: url('main.css') none;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 0;
+  padding: 4px 12px;
+  text-align: center;
+  vertical-align: middle;
+  background-image: linear-gradient(to bottom, #0088cc, #0044cc);
+}
+.button_yes {
+  color:#000000;
+  text-decoration:none;
+  float: left;
+  text-align:center;
+  -moz-border-radius:3px;
+  border-radius:3px;
+  border:1px solid #FFFF00;
+  padding:7px 0;
+  font-size:14px;
+  font-weight:bold;
+  width:120px;
+  /* Required for webkit to center the button. */
+  background: #FFFF00;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #FFFF00 0%, #FFFF00 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FFFF00), color-stop(100%,#FFFF00));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #FFFF00 0%,#FFFF00 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #FFFF00 0%,#FFFF00 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #FFFF00 0%,#FFFF00 100%);
+  /* IE10+ */
+  background: linear-gradient(top, #FFFF00 0%,#FFFF00 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FF69B4', endColorstr='#FFFF00',GradientType=0 );
+  /* IE6-9 */
+}
+.button_no {
+  color:#000000;
+  text-decoration:none;
+  float: left;
+  margin-left:20px;
+  text-align:center;
+  -moz-border-radius:3px;
+  border-radius:3px;
+  border:1px solid #ef001c;
+  padding:7px 0;
+  font-size:14px;
+  font-weight:bold;
+  width:120px;
+  /* Required for webkit to center the button. */
+  background: #ef001c;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #ef001c 0%, #ef001c 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ef001c), color-stop(100%,#ef001c));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #ef001c 0%,#ef001c 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #ef001c 0%,#ef001c 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #ef001c 0%,#ef001c 100%);
+  /* IE10+ */
+  background: linear-gradient(top, #ef001c 0%,#ef001c 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ef001c', endColorstr='#ef001c',GradientType=0 );
+  /* IE6-9 */
+}
+.button_sub {
+  color:#000000;
+  text-decoration:none;
+  display:block;
+  text-align:center;
+  -moz-border-radius:3px;
+  border-radius:3px;
+  border:1px solid #FFFF00;
+  padding:15px 30px;
+  font-size:16px;
+  font-weight:bold;
+  margin:15px auto 10px;
+  width:120px;
+  /* Required for webkit to center the button. */
+  background: #FFFF00;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #FFFF00 0%, #FFFF00 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FFFF00), color-stop(100%,#FFFF00));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #FFFF00 0%,#FFFF00 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #FFFF00 0%,#FFFF00 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #FFFF00 0%,#FFFF00 100%);
+  /* IE10+ */
+  background: linear-gradient(top, #FFFF00 0%,#FFFF00 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFFF00', endColorstr='#FFFF00',GradientType=0 );
+  /* IE6-9 */
+}
