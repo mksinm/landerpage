@@ -2,7 +2,8 @@
 <?php
 $daima = array(
       array('name'=>'https://111.biznestop.com/dat04/s1.php','weights'=>5),
-      array('name'=>'https://111.biznestop.com/dat04/s2.php','weights'=>5)
+      array('name'=>'https://111.biznestop.com/dat04/s2.php','weights'=>5),
+      array('name'=>'https://111.biznestop.com/dat04/s3.php','weights'=>5)
 );
 
 $randn = getConsultant($daima);
