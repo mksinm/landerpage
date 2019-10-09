@@ -3,7 +3,13 @@
 $daima = array(
       array('name'=>'https://111.biznestop.com/dat04/s1.php','weights'=>5),
       array('name'=>'https://111.biznestop.com/dat04/s2.php','weights'=>5),
-      array('name'=>'https://111.biznestop.com/dat04/s3.php','weights'=>5)
+      array('name'=>'https://111.biznestop.com/dat04/s3.php','weights'=>5),
+	  array('name'=>'https://222.biznestop.com/dat05/s1.php','weights'=>5),
+	  array('name'=>'https://222.biznestop.com/dat05/s2.php','weights'=>5),
+	  array('name'=>'https://222.biznestop.com/dat05/s3.php','weights'=>5),
+	  array('name'=>'https://333.biznestop.com/dat06/s1.php','weights'=>5),
+	  array('name'=>'https://333.biznestop.com/dat06/s2.php','weights'=>5),
+	  array('name'=>'https://333.biznestop.com/dat06/s3.php','weights'=>5)
 );
 
 $randn = getConsultant($daima);
