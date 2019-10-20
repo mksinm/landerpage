@@ -1,7 +1,3 @@
 https://trk.reactorphone.com/c/3010/e?clickid={cid}&cost={visit_cost}&target={target}&source={source}&geo={geo}&visitor_type={visitor_type}&campaign_id={campaign_id}&os={os}&browser={browser}&carrier={carrier}
-https://trk.katyastyling.com/c/2984/6?clickid={cid}&cost={visit_cost}&target={target}&source={source}&geo={geo}&visitor_type={visitor_type}&campaign_id={campaign_id}&os={os}&browser={browser}&carrier={carrier}
-https://trk.bimetalswitch.com/c/2982/f?clickid={cid}&cost={visit_cost}&target={target}&source={source}&geo={geo}&visitor_type={visitor_type}&campaign_id={campaign_id}&os={os}&browser={browser}&carrier={carrier}
-https://trk.voiceofgames.net/c/2922/2?clickid={cid}&cost={visit_cost}&target={target}&source={source}&geo={geo}&visitor_type={visitor_type}&campaign_id={campaign_id}&os={os}&browser={browser}&carrier={carrier}
 https://trk.stockpost.net/c/2438/1?clickid={cid}&cost={visit_cost}&target={target}&source={source}&geo={geo}&visitor_type={visitor_type}&campaign_id={campaign_id}&os={os}&browser={browser}&carrier={carrier}
 https://trk.plainmovie.com/c/15343/6?clickid={cid}&cost={visit_cost}&target={target}&source={source}&geo={geo}&visitor_type={visitor_type}&campaign_id={campaign_id}&os={os}&browser={browser}&carrier={carrier}
-https://trk.yellowgames.net/c/15344/8?clickid={cid}&cost={visit_cost}&target={target}&source={source}&geo={geo}&visitor_type={visitor_type}&campaign_id={campaign_id}&os={os}&browser={browser}&carrier={carrier}
